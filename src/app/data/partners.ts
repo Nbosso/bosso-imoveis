@@ -1,0 +1,58 @@
+import { Partner } from '../types';
+
+export const mockPartners: Partner[] = [
+  {
+    id: '1',
+    name: 'Cyrela',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=Cyrela',
+    category: 'Incorporadora',
+    order: 1,
+    active: true,
+    showOnHome: true,
+  },
+  {
+    id: '2',
+    name: 'MRV',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=MRV',
+    category: 'Incorporadora',
+    order: 2,
+    active: true,
+    showOnHome: true,
+  },
+  {
+    id: '3',
+    name: 'Tecnisa',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=Tecnisa',
+    category: 'Incorporadora',
+    order: 3,
+    active: true,
+    showOnHome: true,
+  },
+  {
+    id: '4',
+    name: 'Tenda',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=Tenda',
+    category: 'Incorporadora',
+    order: 4,
+    active: true,
+    showOnHome: true,
+  },
+  {
+    id: '5',
+    name: 'Even',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=Even',
+    category: 'Incorporadora',
+    order: 5,
+    active: true,
+    showOnHome: true,
+  },
+  {
+    id: '6',
+    name: 'Brookfield',
+    logo: 'https://via.placeholder.com/200x80/1A1A1A/FFFFFF?text=Brookfield',
+    category: 'Incorporadora',
+    order: 6,
+    active: true,
+    showOnHome: true,
+  },
+];
